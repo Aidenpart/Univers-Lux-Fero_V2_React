@@ -1,0 +1,66 @@
+@import "../../../pages/generalStyles.scss";
+
+
+.cards-section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: content-box;
+    overflow: auto;
+    margin: 30px auto;
+    
+    .button-read-all {
+        width: 200px;
+        margin: auto;
+    }
+    
+    .render-card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+.article-search {
+    width: 80%;
+    
+    .selection-articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .form {
+            margin: 15px auto;
+            display: flex;
+            flex-direction: column;
+            
+            label, select, button {
+                text-align: center;
+                margin: 5px 0;
+            }
+            
+            button {
+                width: 200px;
+                margin: auto;
+            }
+        }
+    }    
+}
+
+
+.title {
+    font-family: $Kanit;
+}
+
+
+@media screen and (min-width: 1279px) {
+    
+    .article-search {
+        
+        .selection-articles {
+            flex-direction: row;
+        }    
+    }
+    
+}

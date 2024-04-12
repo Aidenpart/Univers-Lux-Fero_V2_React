@@ -1,0 +1,133 @@
+@import "../../../pages/generalStyles.scss";
+
+
+.comment-form {
+    width: 70%;
+    margin: 2% auto;
+    display: flex;
+    
+    h4 {
+        margin: 5px auto;
+    }
+    
+    .form {
+        width: 100%;
+        
+        .textarea {
+            font-family: $Nunito;
+            width: 100%;
+            height: 100px;
+            border: 1px solid black;
+        }
+        
+        button {
+            margin: auto;
+        }
+    }
+}
+
+
+.switcher {
+    width: 100%;
+    
+    .espacement {
+        margin-bottom: 30px;
+    }
+}
+
+
+.commentaire {
+    background-color: #F7F9FA;
+    box-sizing: border-box;
+    border: 1px solid $primary-color;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 15% 70% 15%;
+
+    .contenu {
+        padding: 10px;
+    }
+
+    .img-commentaire {
+        width: 100%;
+        height: 100%;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            overflow: hidden;
+        }
+    }
+    
+    p {
+        margin: 0;
+    }
+
+    .pseudo-user {
+        font-size: 1.25em;
+    }
+}
+
+
+.update-comment {
+    position: relative;
+    
+    .update-form {
+        position: relative;
+        font-family: $Nunito;
+        
+        .textarea {
+            position: absolute;
+            top: -135px;
+            left: 0;
+            height: 100px;
+            width: 98.5%;
+        }
+    }
+    
+    .update-button{
+        left: 30%;
+        position: absolute;
+        font-size: 1.25em;
+    }
+    
+    .cancel-update-button {
+        right: 30%;
+        position: absolute;    
+        font-size: 1.25em;
+    }
+    
+    .update-modal {
+        width: 30%;
+        height: 90%;
+        margin: auto;
+        font-size: 1.25em;
+    }
+    
+}
+
+
+.delete-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+@media screen and (max-width: 685px) {
+    
+    .update-comment {
+        
+        .update-modal {
+            width: 50%;
+        }
+    }
+
+}

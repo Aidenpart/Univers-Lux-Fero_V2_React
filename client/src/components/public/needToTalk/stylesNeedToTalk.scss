@@ -1,0 +1,27 @@
+@import "../../../pages/generalStyles.scss";
+
+.need-to-talk {
+    margin: 0 auto;
+    border: 1px solid $primary-color;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 50%;
+    padding: 5px;
+    background-color: $bg-link-secundary;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    p, a {
+        margin: 0;
+        color: $third-color;
+    }
+    
+    .span-left {
+        float: left;
+    }
+    
+    .span-right {
+        float: right;
+    }
+}

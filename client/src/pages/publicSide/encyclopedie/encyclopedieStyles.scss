@@ -1,0 +1,88 @@
+@import "../../../pages/generalStyles.scss";
+
+.main-accueil-encyclopedie {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+    
+    section, article {
+        margin: 30px 0;
+    }
+    
+    a {
+        border-radius: 10px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        .link-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: 30px auto;
+        }
+    }
+}
+
+
+.main-encyclopedie {
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+    
+    main {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        section, article {
+            margin: 30px 0;
+        }
+        
+        .div-form {
+            width: 70%;
+            margin: 25px auto;
+            
+            .form {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
+                label, select {
+                    margin: 5px 0;
+                }
+            }
+        }
+    
+        a {
+            border-radius: 10px;
+        }
+
+      .link-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: 30px auto;
+        }
+        
+        .div-search {
+            width: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

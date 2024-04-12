@@ -1,0 +1,45 @@
+À faire
+
+tests
+tester cards articles
+
+
+chemins
+faire routes public dans App.js pour la partie public
+
+
+composants
+faire/renommer needToTalk
+dispatcher liens vers navigation et burger
+faire card mini article pour page accueil blog
+
+
+pages
+faire page wiki personnage/lieu
+    ou
+faire composant qui s'affiche juste à la recherche du select => plusieurs selects ?
+faire page blog
+faire page One article côté public => faire composant formulaire de commentaire => disponible que si jwt => récupérer modal pour le faire apparaître sous condition
+
+
+
+
+
+À continuer
+tests
+
+
+chemins
+
+
+composants
+continuer burger menu => le dispatcher dans toutes les pages
+modifier Create Personnages comme Create Lieux => select avec options en dur pour appartenance
+
+
+pages
+continuer page accueil wiki
+continuer page wiki lieux
+continuer page wiki personnages
+dupliquer page wiki lieux enfer => wiki lieux cieux
+dupliquer et adapter page wiki lieux enfer => wiki personnages Humanité/Infernaux/Celestiaux
